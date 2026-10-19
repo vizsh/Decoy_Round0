@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T11:10:10Z",
+  "title": "Design System: MANDATE",
+  "extensions": {
+    "colorMeta": {
+      "lamp-amber": {
+        "role": "primary",
+        "displayName": "Indicator Amber",
+        "canonical": "#ffb547",
+        "oklch": "oklch(82.4% 0.149 73.3)",
+        "tonalRamp": [
+          "oklch(15.0% 0.149 73.3)",
+          "oklch(26.4% 0.149 73.3)",
+          "oklch(37.9% 0.149 73.3)",
+          "oklch(49.3% 0.149 73.3)",
+          "oklch(60.7% 0.149 73.3)",
+          "oklch(72.1% 0.149 73.3)",
+          "oklch(83.6% 0.149 73.3)",
+          "oklch(95.0% 0.149 73.3)"
+        ]
+      },
+      "lamp-amber-bright": {
+        "role": "primary",
+        "displayName": "Bright Amber",
+        "canonical": "#ffc266",
+        "oklch": "oklch(85.2% 0.129 75.7)",
+        "tonalRamp": [
+          "oklch(15.0% 0.129 75.7)",
+          "oklch(26.4% 0.129 75.7)",
+          "oklch(37.9% 0.129 75.7)",
+          "oklch(49.3% 0.129 75.7)",
+          "oklch(60.7% 0.129 75.7)",
+          "oklch(72.1% 0.129 75.7)",
+          "oklch(83.6% 0.129 75.7)",
+          "oklch(95.0% 0.129 75.7)"
+        ]
+      },
+      "ink-red": {
+        "role": "secondary",
+        "displayName": "Alarm Ink Red",
+        "canonical": "#c42318",
+        "oklch": "oklch(53.0% 0.197 29.4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.197 29.4)",
+          "oklch(26.4% 0.197 29.4)",
+          "oklch(37.9% 0.197 29.4)",
+          "oklch(49.3% 0.197 29.4)",
+          "oklch(60.7% 0.197 29.4)",
+          "oklch(72.1% 0.197 29.4)",
+          "oklch(83.6% 0.197 29.4)",
+          "oklch(95.0% 0.197 29.4)"
+        ]
+      },
+      "lamp-red": {
+        "role": "secondary",
+        "displayName": "Alarm Lamp Red",
+        "canonical": "#ff5b4a",
+        "oklch": "oklch(68.7% 0.202 29.2)",
+        "tonalRamp": [
+          "oklch(15.0% 0.202 29.2)",
+          "oklch(26.4% 0.202 29.2)",
+          "oklch(37.9% 0.202 29.2)",
+          "oklch(49.3% 0.202 29.2)",
+          "oklch(60.7% 0.202 29.2)",
+          "oklch(72.1% 0.202 29.2)",
+          "oklch(83.6% 0.202 29.2)",
+          "oklch(95.0% 0.202 29.2)"
+        ]
+      },
+      "alarm-well": {
+        "role": "secondary",
+        "displayName": "Alarm Well",
+        "canonical": "#3a1d1a",
+        "oklch": "oklch(27.0% 0.046 26.8)",
+        "tonalRamp": [
+          "oklch(15.0% 0.046 26.8)",
+          "oklch(26.4% 0.046 26.8)",
+          "oklch(37.9% 0.046 26.8)",
+          "oklch(49.3% 0.046 26.8)",
+          "oklch(60.7% 0.046 26.8)",
+          "oklch(72.1% 0.046 26.8)",
+          "oklch(83.6% 0.046 26.8)",
+          "oklch(95.0% 0.046 26.8)"
+        ]
+      },
+      "alarm-glow": {
+        "role": "secondary",
+        "displayName": "Alarm Glow",
+        "canonical": "#ff8a7d",
+        "oklch": "oklch(75.9% 0.144 27.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.144 27.6)",
+          "oklch(26.4% 0.144 27.6)",
+          "oklch(37.9% 0.144 27.6)",
+          "oklch(49.3% 0.144 27.6)",
+          "oklch(60.7% 0.144 27.6)",
+          "oklch(72.1% 0.144 27.6)",
+          "oklch(83.6% 0.144 27.6)",
+          "oklch(95.0% 0.144 27.6)"
+        ]
+      },
+      "lamp-green": {
+        "role": "tertiary",
+        "displayName": "Benign Lamp Green",
+        "canonical": "#86dba0",
+        "oklch": "oklch(82.2% 0.118 152.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.118 152.9)",
+          "oklch(26.4% 0.118 152.9)",
+          "oklch(37.9% 0.118 152.9)",
+          "oklch(49.3% 0.118 152.9)",
+          "oklch(60.7% 0.118 152.9)",
+          "oklch(72.1% 0.118 152.9)",
+          "oklch(83.6% 0.118 152.9)",
+          "oklch(95.0% 0.118 152.9)"
+        ]
+      },
+      "ink-black": {
+        "role": "tertiary",
+        "displayName": "Mandate Black",
+        "canonical": "#15181b",
+        "oklch": "oklch(20.7% 0.008 248.2)",
+        "tonalRamp": [
+          "oklch(15.0% 0.008 248.2)",
+          "oklch(26.4% 0.008 248.2)",
+          "oklch(37.9% 0.008 248.2)",
+          "oklch(49.3% 0.008 248.2)",
+          "oklch(60.7% 0.008 248.2)",
+          "oklch(72.1% 0.008 248.2)",
+          "oklch(83.6% 0.008 248.2)",
+          "oklch(95.0% 0.008 248.2)"
+        ]
+      },
+      "ink-amber": {
+        "role": "tertiary",
+        "displayName": "Taint Amber",
+        "canonical": "#985806",
+        "oklch": "oklch(52.3% 0.117 63.0)",
+        "tonalRamp": [
+          "oklch(15.0% 0.117 63.0)",
+          "oklch(26.4% 0.117 63.0)",
+          "oklch(37.9% 0.117 63.0)",
+          "oklch(49.3% 0.117 63.0)",
+          "oklch(60.7% 0.117 63.0)",
+          "oklch(72.1% 0.117 63.0)",
+          "oklch(83.6% 0.117 63.0)",
+          "oklch(95.0% 0.117 63.0)"
+        ]
+      },
+      "ink-blue": {
+        "role": "tertiary",
+        "displayName": "Self Blue",
+        "canonical": "#1d4fb8",
+        "oklch": "oklch(46.2% 0.175 262.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.175 262.6)",
+          "oklch(26.4% 0.175 262.6)",
+          "oklch(37.9% 0.175 262.6)",
+          "oklch(49.3% 0.175 262.6)",
+          "oklch(60.7% 0.175 262.6)",
+          "oklch(72.1% 0.175 262.6)",
+          "oklch(83.6% 0.175 262.6)",
+          "oklch(95.0% 0.175 262.6)"
+        ]
+      },
+      "ink-violet": {
+        "role": "tertiary",
+        "displayName": "Herd Violet",
+        "canonical": "#6b3aa6",
+        "oklch": "oklch(46.5% 0.167 301.0)",
+        "tonalRamp": [
+          "oklch(15.0% 0.167 301.0)",
+          "oklch(26.4% 0.167 301.0)",
+          "oklch(37.9% 0.167 301.0)",
+          "oklch(49.3% 0.167 301.0)",
+          "oklch(60.7% 0.167 301.0)",
+          "oklch(72.1% 0.167 301.0)",
+          "oklch(83.6% 0.167 301.0)",
+          "oklch(95.0% 0.167 301.0)"
+        ]
+      },
+      "ink-green": {
+        "role": "tertiary",
+        "displayName": "Chain Green",
+        "canonical": "#17704a",
+        "oklch": "oklch(48.5% 0.102 159.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.102 159.6)",
+          "oklch(26.4% 0.102 159.6)",
+          "oklch(37.9% 0.102 159.6)",
+          "oklch(49.3% 0.102 159.6)",
+          "oklch(60.7% 0.102 159.6)",
+          "oklch(72.1% 0.102 159.6)",
+          "oklch(83.6% 0.102 159.6)",
+          "oklch(95.0% 0.102 159.6)"
+        ]
+      },
+      "ink-graphite": {
+        "role": "tertiary",
+        "displayName": "Drift Graphite",
+        "canonical": "#4f5a54",
+        "oklch": "oklch(45.6% 0.017 161.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.017 161.9)",
+          "oklch(26.4% 0.017 161.9)",
+          "oklch(37.9% 0.017 161.9)",
+          "oklch(49.3% 0.017 161.9)",
+          "oklch(60.7% 0.017 161.9)",
+          "oklch(72.1% 0.017 161.9)",
+          "oklch(83.6% 0.017 161.9)",
+          "oklch(95.0% 0.017 161.9)"
+        ]
+      },
+      "housing-950": {
+        "role": "neutral",
+        "displayName": "Housing Enamel 950",
+        "canonical": "#0e1412",
+        "oklch": "oklch(18.4% 0.010 172.9)",
+        "tonalRamp": [
+          "#0a0f0d",
+          "#0e1412",
+          "#141b18",
+          "#19211d",
+          "#1e2723",
+          "#29332e",
+          "#37443e",
+          "#4a5952"
+        ]
+      },
+      "housing-900": {
+        "role": "neutral",
+        "displayName": "Housing Enamel 900",
+        "canonical": "#141b18",
+        "oklch": "oklch(21.4% 0.012 167.3)",
+        "tonalRamp": [
+          "#0a0f0d",
+          "#0e1412",
+          "#141b18",
+          "#19211d",
+          "#1e2723",
+          "#29332e",
+          "#37443e",
+          "#4a5952"
+        ]
+      },
+      "housing-850": {
+        "role": "neutral",
+        "displayName": "Housing Enamel 850",
+        "canonical": "#19211d",
+        "oklch": "oklch(23.8% 0.014 163.5)",
+        "tonalRamp": [
+          "#0a0f0d",
+          "#0e1412",
+          "#141b18",
+          "#19211d",
+          "#1e2723",
+          "#29332e",
+          "#37443e",
+          "#4a5952"
+        ]
+      },
+      "housing-800": {
+        "role": "neutral",
+        "displayName": "Housing Enamel 800",
+        "canonical": "#1e2723",
+        "oklch": "oklch(26.3% 0.015 166.5)",
+        "tonalRamp": [
+          "#0a0f0d",
+          "#0e1412",
+          "#141b18",
+          "#19211d",
+          "#1e2723",
+          "#29332e",
+          "#37443e",
+          "#4a5952"
+        ]
+      },
+      "housing-700": {
+        "role": "neutral",
+        "displayName": "Housing Enamel 700",
+        "canonical": "#29332e",
+        "oklch": "oklch(31.0% 0.016 163.7)",
+        "tonalRamp": [
+          "#0a0f0d",
+          "#0e1412",
+          "#141b18",
+          "#19211d",
+          "#1e2723",
+          "#29332e",
+          "#37443e",
+          "#4a5952"
+        ]
+      },
+      "housing-600": {
+        "role": "neutral",
+        "displayName": "Housing Enamel 600",
+        "canonical": "#37443e",
+        "oklch": "oklch(37.3% 0.020 165.7)",
+        "tonalRamp": [
+          "#0a0f0d",
+          "#0e1412",
+          "#141b18",
+          "#19211d",
+          "#1e2723",
+          "#29332e",
+          "#37443e",
+          "#4a5952"
+        ]
+      },
+      "seam": {
+        "role": "neutral",
+        "displayName": "Seam",
+        "canonical": "#0a0f0d",
+        "oklch": "oklch(16.2% 0.009 168.9)",
+        "tonalRamp": [
+          "#0a0f0d",
+          "#0e1412",
+          "#141b18",
+          "#19211d",
+          "#1e2723",
+          "#29332e",
+          "#37443e",
+          "#4a5952"
+        ]
+      },
+      "engrave": {
+        "role": "neutral",
+        "displayName": "Engraving",
+        "canonical": "#d2dbd5",
+        "oklch": "oklch(88.3% 0.013 157.0)",
+        "tonalRamp": [
+          "oklch(15.0% 0.013 157.0)",
+          "oklch(26.4% 0.013 157.0)",
+          "oklch(37.9% 0.013 157.0)",
+          "oklch(49.3% 0.013 157.0)",
+          "oklch(60.7% 0.013 157.0)",
+          "oklch(72.1% 0.013 157.0)",
+          "oklch(83.6% 0.013 157.0)",
+          "oklch(95.0% 0.013 157.0)"
+        ]
+      },
+      "engrave-2": {
+        "role": "neutral",
+        "displayName": "Engraving, Secondary",
+        "canonical": "#9eaba3",
+        "oklch": "oklch(72.9% 0.019 158.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.019 158.9)",
+          "oklch(26.4% 0.019 158.9)",
+          "oklch(37.9% 0.019 158.9)",
+          "oklch(49.3% 0.019 158.9)",
+          "oklch(60.7% 0.019 158.9)",
+          "oklch(72.1% 0.019 158.9)",
+          "oklch(83.6% 0.019 158.9)",
+          "oklch(95.0% 0.019 158.9)"
+        ]
+      },
+      "engrave-3": {
+        "role": "neutral",
+        "displayName": "Engraving, Tertiary",
+        "canonical": "#85938b",
+        "oklch": "oklch(65.0% 0.020 160.8)",
+        "tonalRamp": [
+          "oklch(15.0% 0.020 160.7)",
+          "oklch(26.4% 0.020 160.7)",
+          "oklch(37.9% 0.020 160.7)",
+          "oklch(49.3% 0.020 160.7)",
+          "oklch(60.7% 0.020 160.7)",
+          "oklch(72.1% 0.020 160.7)",
+          "oklch(83.6% 0.020 160.7)",
+          "oklch(95.0% 0.020 160.7)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Chart Paper",
+        "canonical": "#f3f6f1",
+        "oklch": "oklch(96.9% 0.007 132.4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 132.4)",
+          "oklch(26.4% 0.007 132.4)",
+          "oklch(37.9% 0.007 132.4)",
+          "oklch(49.3% 0.007 132.4)",
+          "oklch(60.7% 0.007 132.4)",
+          "oklch(72.1% 0.007 132.4)",
+          "oklch(83.6% 0.007 132.4)",
+          "oklch(95.0% 0.007 132.4)"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Chart Paper, Shaded",
+        "canonical": "#e8ede6",
+        "oklch": "oklch(94.0% 0.011 136.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.011 136.6)",
+          "oklch(26.4% 0.011 136.6)",
+          "oklch(37.9% 0.011 136.6)",
+          "oklch(49.3% 0.011 136.6)",
+          "oklch(60.7% 0.011 136.6)",
+          "oklch(72.1% 0.011 136.6)",
+          "oklch(83.6% 0.011 136.6)",
+          "oklch(95.0% 0.011 136.6)"
+        ]
+      },
+      "paper-edge": {
+        "role": "neutral",
+        "displayName": "Paper Edge",
+        "canonical": "#d3dbd1",
+        "oklch": "oklch(88.2% 0.016 139.4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.016 139.4)",
+          "oklch(26.4% 0.016 139.4)",
+          "oklch(37.9% 0.016 139.4)",
+          "oklch(49.3% 0.016 139.4)",
+          "oklch(60.7% 0.016 139.4)",
+          "oklch(72.1% 0.016 139.4)",
+          "oklch(83.6% 0.016 139.4)",
+          "oklch(95.0% 0.016 139.4)"
+        ]
+      },
+      "grid-minor": {
+        "role": "neutral",
+        "displayName": "Recorder Grid, Minor",
+        "canonical": "#d6e6da",
+        "oklch": "oklch(91.0% 0.023 153.4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.023 153.4)",
+          "oklch(26.4% 0.023 153.4)",
+          "oklch(37.9% 0.023 153.4)",
+          "oklch(49.3% 0.023 153.4)",
+          "oklch(60.7% 0.023 153.4)",
+          "oklch(72.1% 0.023 153.4)",
+          "oklch(83.6% 0.023 153.4)",
+          "oklch(95.0% 0.023 153.4)"
+        ]
+      },
+      "grid-major": {
+        "role": "neutral",
+        "displayName": "Recorder Grid, Major",
+        "canonical": "#a7ccb3",
+        "oklch": "oklch(81.1% 0.053 155.5)",
+        "tonalRamp": [
+          "oklch(15.0% 0.053 155.5)",
+          "oklch(26.4% 0.053 155.5)",
+          "oklch(37.9% 0.053 155.5)",
+          "oklch(49.3% 0.053 155.5)",
+          "oklch(60.7% 0.053 155.5)",
+          "oklch(72.1% 0.053 155.5)",
+          "oklch(83.6% 0.053 155.5)",
+          "oklch(95.0% 0.053 155.5)"
+        ]
+      },
+      "grid-ink": {
+        "role": "neutral",
+        "displayName": "Recorder Grid Ink",
+        "canonical": "#3c6a50",
+        "oklch": "oklch(48.3% 0.066 157.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.066 157.9)",
+          "oklch(26.4% 0.066 157.9)",
+          "oklch(37.9% 0.066 157.9)",
+          "oklch(49.3% 0.066 157.9)",
+          "oklch(60.7% 0.066 157.9)",
+          "oklch(72.1% 0.066 157.9)",
+          "oklch(83.6% 0.066 157.9)",
+          "oklch(95.0% 0.066 157.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The landing headline only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headlines; stand alone, no label above."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Console case title, Mandate Card role, lens names, certificate titles."
+      },
+      "subhead": {
+        "displayName": "Subhead",
+        "purpose": "Event summaries, rung names, list headings, readout values."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Leads and explanations, 62–64ch."
+      },
+      "body-small": {
+        "displayName": "Body small",
+        "purpose": "Plate copy, captions, report detail."
+      },
+      "label-engraved": {
+        "displayName": "Engraved label",
+        "purpose": "Uppercase plate, channel and readout captions on the housing (engrave-2)."
+      },
+      "label-printed": {
+        "displayName": "Printed label",
+        "purpose": "Uppercase column heads, field names and legends on paper (grid-ink)."
+      },
+      "key": {
+        "displayName": "Key legend",
+        "purpose": "Uppercase push-button legends."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Machine output: addresses, points, units, verdicts. Tabular."
+      },
+      "readout": {
+        "displayName": "Readout",
+        "purpose": "The three-digit risk counter."
+      },
+      "stamp": {
+        "displayName": "Stamp",
+        "purpose": "Uppercase rubber stamps on paper."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "MANDATE nameplate badge."
+      }
+    },
+    "shadows": [
+      {
+        "name": "raised-plate",
+        "value": "inset 0 1px 0 rgb(255 255 255 / 0.06), inset 0 -1px 0 rgb(0 0 0 / 0.5), 0 1px 0 rgb(255 255 255 / 0.03), 0 10px 24px -12px rgb(0 0 0 / 0.7)",
+        "purpose": "Every housing panel (.panel)."
+      },
+      {
+        "name": "recessed-well",
+        "value": "inset 0 2px 6px rgb(0 0 0 / 0.75)",
+        "purpose": "Chart mounts and the strip-chart bay."
+      },
+      {
+        "name": "seam",
+        "value": "inset 0 1px 0 rgb(0 0 0 / 0.65), inset 0 -1px 0 rgb(255 255 255 / 0.05)",
+        "purpose": "Nameplate badges, readout wells and windows (.seam)."
+      },
+      {
+        "name": "paper-sheet",
+        "value": "0 24px 48px -24px rgb(0 0 0 / 0.85), 0 2px 0 rgb(0 0 0 / 0.35)",
+        "purpose": "Long paper sheets laid on the housing."
+      },
+      {
+        "name": "paper-report",
+        "value": "0 18px 36px -20px rgb(0 0 0 / 0.9)",
+        "purpose": "Examiner's report and Mandate Card on the console."
+      },
+      {
+        "name": "key-bevel",
+        "value": "inset 0 1px 0 rgb(255 255 255 / 0.08), inset 0 -2px 0 rgb(0 0 0 / 0.35), 0 0 0 1px rgb(0 0 0 / 0.7)",
+        "purpose": "Plain push-buttons."
+      },
+      {
+        "name": "key-lit",
+        "value": "inset 0 1px 0 rgb(255 255 255 / 0.45), inset 0 -2px 0 rgb(0 0 0 / 0.25), 0 0 0 1px rgb(0 0 0 / 0.65), 0 6px 18px -6px rgb(255 181 71 / 0.55)",
+        "purpose": "The one lit push-button per viewport."
+      },
+      {
+        "name": "lamp-emission",
+        "value": "0 0 0 1px rgb(0 0 0 / 0.6), 0 0 10px 1px color-mix(in srgb, var(--color-lamp-amber) 55%, transparent), inset 0 -1px 1px rgb(0 0 0 / 0.35)",
+        "purpose": "Lit lamps only; swap the lamp colour per tone."
+      },
+      {
+        "name": "reading-card",
+        "value": "0 8px 20px -8px rgb(0 0 0 / 0.7)",
+        "purpose": "Paper reading card under the chart crosshair."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Stamps landing, key travel, detent rotation."
+      },
+      {
+        "name": "ease-pen",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "purpose": "Pen easing to a new value, implemented in JS in the recorder (no CSS token)."
+      },
+      {
+        "name": "stamp-land",
+        "value": "120ms ease-out-expo; scale 1.18 → 1, opacity 0 → 1",
+        "purpose": "Every ink stamp and tick mark arriving on paper."
+      },
+      {
+        "name": "key-press",
+        "value": "120ms ease-out-expo; translateY(1px) on :active; background 160ms ease",
+        "purpose": "Push-button travel."
+      },
+      {
+        "name": "detent-turn",
+        "value": "260ms ease-out-expo rotate",
+        "purpose": "Rotary selector moving between rungs."
+      },
+      {
+        "name": "pen-settle",
+        "value": "520ms cubic in-out",
+        "purpose": "Pen nib travelling to a step's new value."
+      },
+      {
+        "name": "paper-advance",
+        "value": "62px/s linear (44px/s compact); labelled 6.2 mm/s",
+        "purpose": "Scroll-mode chart feed; constant speed, never eased."
+      },
+      {
+        "name": "hold-to-revoke",
+        "value": "1400–1600ms linear fill",
+        "purpose": "Destructive revoke requires a held press."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation/transition 0.01ms; chart renders its end state statically",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      },
+      {
+        "name": "chart-compact",
+        "value": "chart width < 640px (landing) / < 760px (console)"
+      }
+    ],
+    "materials": [
+      {
+        "name": "hammertone",
+        "value": "url('/textures/hammertone.webp') 512px repeat over var(--color-housing-850)",
+        "purpose": "Instrument housing enamel; procedural tile from scripts/make_hammertone.py (seed 1966), provenance in public/textures/hammertone.webp.json."
+      },
+      {
+        "name": "paper-grid",
+        "value": "8px minor (grid-minor) + 40px major (grid-major) rules over paper",
+        "purpose": "Chart paper; every fifth line heavier."
+      },
+      {
+        "name": "ink-noise",
+        "value": "feTurbulence fractalNoise 0.85, 2 octaves, alpha-masked",
+        "purpose": "Pen traces and SVG stamps read as ink on paper."
+      },
+      {
+        "name": "stamp-mask",
+        "value": "fractalNoise 0.9 mask, 120×60 tile, mix-blend-mode multiply",
+        "purpose": "CSS .stamp pressed-rubber texture."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Lit Key",
+      "kind": "button",
+      "refersTo": "key-lit",
+      "description": "The one lit push-button per viewport: the primary action.",
+      "html": "<button class=\"ds-key-lit\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><polygon points=\"6 3 20 12 6 21 6 3\"/></svg>Run the live console</button>",
+      "css": ".ds-key-lit { font-family: var(--font-cond); font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; display: inline-flex; align-items: center; justify-content: center; gap: 0.6em; border: 0; border-radius: 5px; cursor: pointer; transition: transform 120ms var(--ease-out-expo), box-shadow 120ms var(--ease-out-expo), background-color 160ms ease; height: 48px; padding: 0 20px; font-size: 13px; background: var(--color-lamp-amber); color: var(--color-housing-950); box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.45), inset 0 -2px 0 rgb(0 0 0 / 0.25), 0 0 0 1px rgb(0 0 0 / 0.65), 0 6px 18px -6px rgb(255 181 71 / 0.55); } .ds-key-lit:hover { background: #ffc266; } .ds-key-lit:active { transform: translateY(1px); } .ds-key-lit:focus-visible { outline: 2px solid var(--color-lamp-amber); outline-offset: 3px; }"
+    },
+    {
+      "name": "Plain Key",
+      "kind": "button",
+      "refersTo": "key-plain",
+      "description": "Unlit enamel push-button for every secondary action.",
+      "html": "<button class=\"ds-key-plain\">Discard all</button>",
+      "css": ".ds-key-plain { font-family: var(--font-cond); font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; display: inline-flex; align-items: center; justify-content: center; gap: 0.6em; border: 0; border-radius: 5px; cursor: pointer; transition: transform 120ms var(--ease-out-expo), box-shadow 120ms var(--ease-out-expo), background-color 160ms ease; height: 40px; padding: 0 16px; font-size: 12px; background: var(--color-housing-700); color: var(--color-engrave); box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.08), inset 0 -2px 0 rgb(0 0 0 / 0.35), 0 0 0 1px rgb(0 0 0 / 0.7); } .ds-key-plain:hover { background: var(--color-housing-600); } .ds-key-plain:active { transform: translateY(1px); } .ds-key-plain:focus-visible { outline: 2px solid var(--color-lamp-amber); outline-offset: 3px; } .ds-key-plain:disabled { opacity: 0.45; cursor: not-allowed; }"
+    },
+    {
+      "name": "View Tabs",
+      "kind": "nav",
+      "refersTo": "key-tab",
+      "description": "Console view selector: keyed tabs with their mono keyboard number.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\"><button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\"><span class=\"ds-tab-n\">1</span>Recorder</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\"><span class=\"ds-tab-n\">2</span>Chain</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\"><span class=\"ds-tab-n\">3</span>Ledger</button></div>",
+      "css": ".ds-tabs { display: flex; gap: 6px; padding: 12px; background: var(--color-housing-900); } .ds-tab { font-family: var(--font-cond); font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; display: inline-flex; align-items: center; justify-content: center; gap: 0.6em; border: 0; border-radius: 5px; cursor: pointer; transition: transform 120ms var(--ease-out-expo), box-shadow 120ms var(--ease-out-expo), background-color 160ms ease; height: 32px; padding: 0 12px; font-size: 10.5px; background: var(--color-housing-850); color: var(--color-engrave-2); box-shadow: 0 0 0 1px rgb(0 0 0 / 0.6); } .ds-tab:hover { color: var(--color-engrave); } .ds-tab[aria-selected=true] { background: var(--color-housing-600); color: var(--color-engrave); box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.08), 0 0 0 1px rgb(0 0 0 / 0.7); } .ds-tab:active { transform: translateY(1px); } .ds-tab:focus-visible { outline: 2px solid var(--color-lamp-amber); outline-offset: 3px; } .ds-tab-n { font-family: var(--font-mono); font-size: 9px; color: var(--color-engrave-3); letter-spacing: 0; }"
+    },
+    {
+      "name": "Nameplate",
+      "kind": "nav",
+      "refersTo": "nameplate",
+      "description": "Sticky instrument nameplate: wordmark badge, engraved links, console key with lamp.",
+      "html": "<header class=\"ds-nameplate\"><span class=\"ds-wordmark\">MANDATE</span><span class=\"ds-model\">Agent behaviour recorder · MR-1</span><nav class=\"ds-nav\"><a href=\"#\">How it reads</a><a href=\"#\">Lenses</a><a href=\"#\">Containment</a></nav><a class=\"ds-np-key\" href=\"#\"><span class=\"ds-np-lamp\"></span>Open console</a></header>",
+      "css": ".ds-nameplate { display: flex; align-items: center; gap: 24px; height: 56px; padding: 0 24px; background: rgb(14 20 18 / 0.92); border-bottom: 1px solid var(--color-seam); } .ds-wordmark { font-family: var(--font-display); font-weight: 800; font-size: 21px; line-height: 1; letter-spacing: 0.2em; color: var(--color-engrave); background: var(--color-housing-800); padding: 4px 10px; border-radius: 3px; box-shadow: inset 0 1px 0 rgb(0 0 0 / 0.65), inset 0 -1px 0 rgb(255 255 255 / 0.05); } .ds-model, .ds-nav a { font-family: var(--font-cond); font-weight: 620; text-transform: uppercase; letter-spacing: 0.14em; color: var(--color-engrave-2); font-size: 10px; text-decoration: none; } .ds-nav { display: flex; gap: 24px; margin-left: auto; } .ds-nav a { font-size: 11px; transition: color 160ms ease; } .ds-nav a:hover { color: var(--color-engrave); } .ds-nav a:focus-visible, .ds-np-key:focus-visible { outline: 2px solid var(--color-lamp-amber); outline-offset: 3px; } .ds-np-key { font-family: var(--font-cond); font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; display: inline-flex; align-items: center; justify-content: center; gap: 0.6em; border: 0; border-radius: 5px; cursor: pointer; transition: transform 120ms var(--ease-out-expo), box-shadow 120ms var(--ease-out-expo), background-color 160ms ease; height: 36px; padding: 0 14px; font-size: 11.5px; text-decoration: none; background: var(--color-housing-700); color: var(--color-engrave); box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.08), inset 0 -2px 0 rgb(0 0 0 / 0.35), 0 0 0 1px rgb(0 0 0 / 0.7); } .ds-np-key:hover { background: var(--color-housing-600); } .ds-np-lamp { width: 10px; height: 10px; border-radius: 9999px; background: var(--color-lamp-amber); box-shadow: 0 0 0 1px rgb(0 0 0 / 0.6), 0 0 10px 1px color-mix(in srgb, var(--color-lamp-amber) 55%, transparent), inset 0 -1px 1px rgb(0 0 0 / 0.35); }"
+    },
+    {
+      "name": "Hold-to-revoke Switch",
+      "kind": "button",
+      "refersTo": "revoke-switch-filled",
+      "description": "The only destructive control: hold 1.4–1.6 s while ink-red fills across; never a single click.",
+      "html": "<button class=\"ds-revoke\"><span class=\"ds-revoke-fill\"></span><span class=\"ds-revoke-label\">Hold to revoke PRC-01</span></button>",
+      "css": ".ds-revoke { position: relative; overflow: hidden; height: 44px; padding: 0 20px; border: 0; border-radius: 5px; background: #3a1d1a; color: #ff8a7d; font-family: var(--font-cond); font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; font-size: 13px; cursor: pointer; box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.06); transition: background-color 160ms ease; } .ds-revoke:hover { background: #46221e; } .ds-revoke-fill { position: absolute; inset: 0; background: var(--color-ink-red); transform: scaleX(0); transform-origin: left; transition: transform 200ms ease; } .ds-revoke:active .ds-revoke-fill { transform: scaleX(1); transition: transform 1400ms linear; } .ds-revoke:active .ds-revoke-label { color: #fff4f2; } .ds-revoke-label { position: relative; } .ds-revoke:focus-visible { outline: 2px solid var(--color-ink-red); outline-offset: 3px; }"
+    },
+    {
+      "name": "Lamps and Readout Window",
+      "kind": "card",
+      "refersTo": "readout-window",
+      "description": "Seam-cut readout windows with a recessed mono risk well and labelled lamps; colour never alone.",
+      "html": "<div class=\"ds-readouts\"><div class=\"ds-well\"><span class=\"ds-cap\">Risk</span><span class=\"ds-counter\">100</span></div><dl class=\"ds-windows\"><div><dt>Credentials</dt><dd>Valid</dd></div><div><dt>Access checks</dt><dd>7 of 7 passed</dd></div><div><dt>Mandate</dt><dd class=\"ds-bad\">Breached</dd></div></dl><ol class=\"ds-lamps\"><li><span class=\"ds-lamp\"></span>Observe</li><li><span class=\"ds-lamp\"></span>Scope down</li><li class=\"ds-on\"><span class=\"ds-lamp\"></span>Sandbox</li></ol></div>",
+      "css": ".ds-readouts { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px; padding: 16px; background: var(--color-housing-850); } .ds-cap, .ds-windows dt, .ds-lamps li { font-family: var(--font-cond); font-weight: 620; text-transform: uppercase; letter-spacing: 0.14em; color: var(--color-engrave-2); font-size: 9.5px; } .ds-well { display: flex; align-items: center; gap: 12px; } .ds-counter { font-family: var(--font-mono); font-variant-numeric: tabular-nums; font-weight: 600; font-size: 30px; line-height: 1; color: var(--color-lamp-red); background: var(--color-housing-950); padding: 4px 10px; border-radius: 3px; box-shadow: inset 0 1px 0 rgb(0 0 0 / 0.65), inset 0 -1px 0 rgb(255 255 255 / 0.05); } .ds-windows { display: flex; gap: 1px; margin: 0; background: var(--color-seam); border-radius: 3px; overflow: hidden; } .ds-windows > div { background: var(--color-housing-900); padding: 6px 12px; } .ds-windows dd { margin: 0; font-family: var(--font-cond); font-weight: 600; font-size: 14px; color: var(--color-engrave); } .ds-windows dd.ds-bad { color: var(--color-lamp-red); } .ds-lamps { display: flex; gap: 14px; list-style: none; margin: 0; padding: 0; } .ds-lamps li { display: flex; align-items: center; gap: 6px; } .ds-lamps li.ds-on { color: var(--color-engrave); } .ds-lamp { width: 10px; height: 10px; border-radius: 9999px; background: var(--color-housing-600); box-shadow: 0 0 0 1px rgb(0 0 0 / 0.6), inset 0 1px 1px rgb(0 0 0 / 0.5); } .ds-on .ds-lamp { background: var(--color-lamp-red); box-shadow: 0 0 0 1px rgb(0 0 0 / 0.6), 0 0 10px 1px color-mix(in srgb, var(--color-lamp-red) 55%, transparent), inset 0 -1px 1px rgb(0 0 0 / 0.35); }"
+    },
+    {
+      "name": "Paper Sheet with Stamp",
+      "kind": "card",
+      "refersTo": "sheet",
+      "description": "Chart paper laid on the housing: printed legend with identifiers, 2px ink rule, rows, a pressed stamp.",
+      "html": "<div class=\"ds-sheet\"><div class=\"ds-sheet-head\"><div><p class=\"ds-printed\">Mandate Card · PRC-01</p><p class=\"ds-sheet-title\">Procurement Agent</p></div><p class=\"ds-mono\">version 3<br>fingerprint 9f2c…a41</p></div><dl class=\"ds-rows\"><div><dt class=\"ds-printed\">Tools</dt><dd class=\"ds-mono\">erp.read_po, suppliers.search</dd></div><div><dt class=\"ds-printed\">Destinations</dt><dd class=\"ds-mono\">erp.internal</dd></div></dl><span class=\"ds-stamp\">Enforced</span></div>",
+      "css": ".ds-sheet { position: relative; max-width: 520px; padding: 18px 28px 24px; background: var(--color-paper); color: var(--color-ink-black); border-radius: 3px; box-shadow: 0 24px 48px -24px rgb(0 0 0 / 0.85), 0 2px 0 rgb(0 0 0 / 0.35); } .ds-sheet-head { display: flex; justify-content: space-between; gap: 16px; padding-bottom: 12px; border-bottom: 2px solid var(--color-ink-black); } .ds-printed { margin: 0; font-family: var(--font-cond); font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-grid-ink); font-size: 10.5px; } .ds-sheet-title { margin: 4px 0 0; font-family: var(--font-display); font-weight: 800; font-size: 34px; line-height: 1; } .ds-mono { margin: 0; font-family: var(--font-mono); font-size: 10.5px; line-height: 1.6; color: var(--color-ink-graphite); text-align: right; } .ds-rows { margin: 0; } .ds-rows > div { display: grid; grid-template-columns: 130px 1fr; gap: 16px; padding: 10px 0; border-top: 1px solid var(--color-grid-minor); } .ds-rows > div:first-child { border-top: 0; } .ds-rows dd { margin: 0; text-align: left; color: var(--color-ink-black); font-size: 12px; } .ds-stamp { position: absolute; right: 24px; bottom: 18px; transform: rotate(-6deg); font-family: var(--font-display); font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; font-size: 15px; line-height: 1; color: var(--color-ink-red); border: 2.5px solid currentColor; border-radius: 3px; padding: 0.1em 0.45em 0.05em; mix-blend-mode: multiply; animation: ds-stamp-land 120ms cubic-bezier(0.16, 1, 0.3, 1) both; } @keyframes ds-stamp-land { from { opacity: 0; transform: rotate(-6deg) scale(1.18); } to { opacity: 1; transform: rotate(-6deg) scale(1); } }"
+    },
+    {
+      "name": "Data-class Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Mandate Card amendment toggles: mono, pressed fills ink-black, out-of-role fills ink-red.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\" aria-pressed=\"true\">catalog<span>s1</span></button><button class=\"ds-chip\" aria-pressed=\"false\">supplier<span>s2</span></button><button class=\"ds-chip ds-chip-out\" aria-pressed=\"true\">hr_salary<span>s4</span></button></div>",
+      "css": ".ds-chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 16px; background: var(--color-paper); } .ds-chip { font-family: var(--font-mono); font-size: 11px; padding: 4px 10px; border-radius: 3px; border: 1px solid var(--color-paper-edge); background: transparent; color: var(--color-ink-graphite); cursor: pointer; transition: border-color 160ms ease, background-color 160ms ease, color 160ms ease; } .ds-chip span { margin-left: 4px; opacity: 0.6; } .ds-chip:hover { border-color: var(--color-ink-graphite); } .ds-chip[aria-pressed=true] { background: var(--color-ink-black); border-color: var(--color-ink-black); color: var(--color-paper); } .ds-chip-out[aria-pressed=true] { background: var(--color-ink-red); border-color: var(--color-ink-red); } .ds-chip:focus-visible { outline: 2px solid var(--color-lamp-amber); outline-offset: 3px; }"
+    },
+    {
+      "name": "Go-to Palette Input",
+      "kind": "input",
+      "refersTo": "palette-input",
+      "description": "Keyed-address command field printed on paper; selected row inverts to ink-black.",
+      "html": "<div class=\"ds-palette\"><label class=\"ds-pal-head\"><span class=\"ds-printed\">Go to</span><input class=\"ds-pal-input\" placeholder=\"SCN-04, PRC-01, ledger, revoke…\"></label><div class=\"ds-pal-item ds-sel\"><span class=\"ds-addr\">SCN-01</span>Poisoned supplier PDF</div><div class=\"ds-pal-item\"><span class=\"ds-addr\">PRC-01</span>Procurement Agent</div></div>",
+      "css": ".ds-palette { max-width: 560px; background: var(--color-paper); color: var(--color-ink-black); border-radius: 4px; overflow: hidden; box-shadow: 0 30px 60px -20px rgb(0 0 0 / 0.9); padding-bottom: 6px; } .ds-pal-head { display: flex; align-items: center; gap: 12px; padding: 0 16px; border-bottom: 2px solid var(--color-ink-black); } .ds-printed { font-family: var(--font-cond); font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-grid-ink); font-size: 10px; } .ds-pal-input { flex: 1; height: 48px; border: 0; background: transparent; font-family: var(--font-mono); font-size: 14px; color: var(--color-ink-black); caret-color: var(--color-ink-black); } .ds-pal-input::placeholder { color: var(--color-ink-graphite); } .ds-pal-input:focus-visible { outline: 2px solid var(--color-lamp-amber); outline-offset: 3px; }.ds-pal-item { display: flex; align-items: baseline; gap: 12px; margin: 4px 4px 0; padding: 8px 12px; border-radius: 3px; font-size: 14px; cursor: pointer; } .ds-pal-item:hover, .ds-pal-item.ds-sel { background: var(--color-ink-black); color: var(--color-paper); } .ds-addr { width: 64px; font-family: var(--font-mono); font-size: 11px; opacity: 0.7; }"
+    },
+    {
+      "name": "Strip-chart Lanes",
+      "kind": "custom",
+      "refersTo": "sheet",
+      "description": "Signature recorder fragment: engraved label column, gridded paper, one ink per lane, red risk pen with threshold and stamp.",
+      "html": "<div class=\"ds-chart\"><div class=\"ds-labels\"><span><i style=\"background:var(--color-ink-red);filter:brightness(1.6) saturate(1.2)\"></i>Risk</span><span><i style=\"background:var(--color-engrave)\"></i>Mandate</span><span><i style=\"background:var(--color-ink-amber);filter:brightness(1.6) saturate(1.2)\"></i>Taint</span></div><svg class=\"ds-paper\" viewBox=\"0 0 400 150\" preserveAspectRatio=\"none\" role=\"img\" aria-label=\"Risk rises past the scope-down threshold while Mandate and Taint pens step up\"><line x1=\"0\" x2=\"400\" y1=\"38\" y2=\"38\" stroke=\"var(--color-ink-red)\" stroke-opacity=\"0.28\" stroke-dasharray=\"1 4\"/><path d=\"M0 58 L150 58 C165 58 165 40 180 40 L280 40 C295 40 295 14 310 14 L400 14\" fill=\"none\" stroke=\"var(--color-ink-red)\" stroke-width=\"2.1\" stroke-linecap=\"round\"/><path d=\"M0 104 L180 104 C195 104 195 92 210 92 L400 92\" fill=\"none\" stroke=\"var(--color-ink-black)\" stroke-width=\"1.35\"/><path d=\"M0 140 L90 140 C105 140 105 126 120 126 L400 126\" fill=\"none\" stroke=\"var(--color-ink-amber)\" stroke-width=\"1.35\"/><g transform=\"translate(318 66) rotate(-5)\"><rect x=\"0\" y=\"-16\" width=\"96\" height=\"20\" rx=\"2\" fill=\"none\" stroke=\"var(--color-ink-red)\" stroke-width=\"1.6\"/><text x=\"7\" y=\"-1\" font-family=\"var(--font-display)\" font-weight=\"800\" font-size=\"13\" letter-spacing=\"0.07em\" fill=\"var(--color-ink-red)\">CAPTURED</text></g></svg></div>",
+      "css": ".ds-chart { display: grid; grid-template-columns: 86px 1fr; height: 170px; padding: 6px 0 6px 6px; background: var(--color-housing-950); border-radius: 6px 0 0 6px; box-shadow: inset 0 2px 6px rgb(0 0 0 / 0.75); } .ds-labels { display: grid; grid-template-rows: 1fr 0.4fr 0.4fr; align-items: center; padding-left: 8px; background: var(--color-housing-800); border-right: 1px solid var(--color-seam); } .ds-labels span { display: flex; align-items: center; gap: 6px; font-family: var(--font-cond); font-weight: 620; text-transform: uppercase; letter-spacing: 0.14em; font-size: 10.5px; color: var(--color-engrave-2); } .ds-labels i { width: 6px; height: 2px; border-radius: 1px; } .ds-paper { width: 100%; height: 100%; display: block; background-color: var(--color-paper); background-image: linear-gradient(to right, var(--color-grid-major) 1px, transparent 1px), linear-gradient(to bottom, var(--color-grid-major) 1px, transparent 1px), linear-gradient(to right, var(--color-grid-minor) 1px, transparent 1px), linear-gradient(to bottom, var(--color-grid-minor) 1px, transparent 1px); background-size: 40px 40px, 40px 40px, 8px 8px, 8px 8px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Chart Recorder",
+    "overview": "MANDATE is built as a multi-pen strip-chart recorder: a polygraph for AI agents. Everything sits in one of two materials. The housing is deep green-black hammertone enamel, a procedural 512px tile, with raised plates, recessed wells, cut seams, engraved condensed caps and small lamps. The paper is cool chart white ruled in recorder green, with a millimetre grid that gets heavier every fifth line, and it carries everything the machine writes: pen traces, event marks, factor annotations and rubber stamps. The chart is the argument. A declared role is the claim, and the paper shows where behaviour stops telling the truth.\n\nThe system is dense and technical, like a lab instrument. It is not dashboard chrome. Colour is functional ink: each detection lens writes in its own ink, red ink belongs to risk and alarm, and amber is the one light that tells you where to act. Type follows the materials. The housing is engraved in extra-condensed and condensed caps, the paper is printed in condensed caps, and anything the machine produced (addresses, scores, points, units) is set in Martian Mono.\n\nThe motion grammar is mechanical and sparse. Paper advances at constant speed, pens ease to their new value, and stamps land in 120 ms. Nothing else moves. The system rejects the security-category default of dark glass panels, glowing node graphs and floating KPI tiles.",
+    "keyCharacteristics": [
+      "Two materials only: hammertone housing (plates, wells, seams, lamps, keys) and gridded chart paper (sheets, strips, reports, cards).",
+      "One ink per lens on the chart; red ink reserved for risk and alarm; amber is the single lit accent.",
+      "Engraved caps on metal, printed caps on paper, mono for machine output with tabular numerals.",
+      "Physical depth: raised plates, recessed wells, paper lying on the housing; no decorative glow.",
+      "Mechanical motion: constant paper advance, eased pens, 120 ms stamps; a static end state under reduced motion."
+    ],
+    "rules": [
+      {
+        "name": "The Red Ink Rule",
+        "body": "Red means risk or alarm, and nothing else. It is used for the risk pen, thresholds, decision stamps, breached readouts and the revoke switch. Never use it as decoration, a brand accent, a link or emphasis.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Pen, One Ink Rule",
+        "body": "On the chart each lens writes in exactly one ink: Mandate black, Taint amber, Self blue, Herd violet, Chain green, Drift graphite, Risk red. A new channel gets a new ink. It never borrows one.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Surfaces Rule",
+        "body": "Inks are for paper and lamps are for housing. Lens inks are tuned to paper (5.1:1 or better on paper). On the housing a lens appears only as a brightened swatch bar beside its engraved name, never as ink text. The one crossing is a housing-950 readout well set into a sheet, which keeps its lamp colours.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lit Key Rule",
+        "body": "Amber is the only lit thing on the housing. Each viewport has one lit key. Everything else is unlit enamel until it is pressed or selected.",
+        "section": "colors"
+      },
+      {
+        "name": "The Material Voice Rule",
+        "body": "A label takes its material's voice. On the housing it is engraved (0.14em, engrave-2). On paper it is printed (0.1em, grid-ink). Never mix them on one surface.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono Is Machine Rule",
+        "body": "Martian Mono is only for what the engine produced: addresses, scores, points, units, hashes. Any number that updates uses tabular figures.",
+        "section": "typography"
+      },
+      {
+        "name": "The Weighted Annotation Rule",
+        "body": "Chart annotations scale with their contribution. A factor note is sized 9.5 + 0.24 × points (10.5–16.5px), so the largest contributor is the loudest note on the paper.",
+        "section": "typography"
+      },
+      {
+        "name": "The Machined Depth Rule",
+        "body": "Use a shadow only if a machinist could name it: raised, recessed, cut, laid on or emitting. No ambient glows, no frosted-glass panels, no decorative drop shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** mount every block on one of the two materials: a hammertone plate on the housing or a paper sheet. Nothing floats on bare background colour.",
+      "**Do** say every risk state in words or a stamp as well as colour: lamps with engraved labels, ALLOWED/DENIED stamps, \"Breached\" next to a red value.",
+      "**Do** draw observed facts solid and inferred attributions as a hairline or dash, with \"(inferred)\" set in italic.",
+      "**Do** set every updating number in tabular Martian Mono and zero-pad the risk readout to three digits.",
+      "**Do** print \"synthetic telemetry\" on any chart or certificate that shows engine output.",
+      "**Do** land stamps in 120 ms with ease-out-expo, and let only paper, pens, stamps, keys and knobs move.",
+      "**Do** keep a 2px amber outline at a 3px offset as the focus state on every interactive part, the detent knob included."
+    ],
+    "donts": [
+      "**Don't** use red for anything that is not risk or alarm: no red links, red emphasis or red brand accents.",
+      "**Don't** let two lenses share an ink on the chart, or give a lens an ink that is not its own.",
+      "**Don't** set lens-ink text on the housing or lamp colours on paper (except a housing-950 readout well set into a sheet).",
+      "**Don't** build dark glass panels, glowing node graphs or floating KPI tiles. Numbers live in seam-cut readout windows, in wells or on the paper.",
+      "**Don't** round anything beyond 6px unless it is round on a real instrument (lamp, screw, knob, nib, feed hole).",
+      "**Don't** put a kicker or eyebrow label above a section headline. A printed legend on paper must carry an identifier (case, agent, seed), not restate the topic.",
+      "**Don't** set engrave-3 text on housing-700 (4.1:1). Active and current rows switch their meta text to engrave-2; engrave-3 clears 4.5:1 on housing-800, 850 and 900.",
+      "**Don't** animate panels, scroll reveals or hovers beyond a one-step colour change. A destructive action must never be a single click."
+    ]
+  }
+}

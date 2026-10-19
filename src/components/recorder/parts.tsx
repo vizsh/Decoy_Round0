@@ -1,4 +1,4 @@
-import { useRef, type ButtonHTMLAttributes, type KeyboardEvent, type ReactNode } from "react";
+import { useRef, type ButtonHTMLAttributes, type KeyboardEvent } from "react";
 import { cn } from "@/lib/utils";
 
 export function Lamp({ on = true, tone = "amber", label, className }: { on?: boolean; tone?: "amber" | "red" | "green"; label?: string; className?: string }) {
@@ -18,21 +18,7 @@ export function Lamp({ on = true, tone = "amber", label, className }: { on?: boo
   );
 }
 
-export function Screw({ className }: { className?: string }) {
-  return (
-    <span
-      aria-hidden="true"
-      className={cn("inline-block size-[9px] rounded-full", className)}
-      style={{
-        background: "radial-gradient(circle at 35% 30%, #5d6b64, #2a332f 70%)",
-        boxShadow: "0 1px 0 rgb(255 255 255 / 0.06), inset 0 0 0 1px rgb(0 0 0 / 0.5)",
-        backgroundImage: "linear-gradient(45deg, transparent 44%, rgb(0 0 0 / 0.65) 45% 55%, transparent 56%), radial-gradient(circle at 35% 30%, #5d6b64, #2a332f 70%)",
-      }}
-    />
-  );
-}
-
-type KeyTone = "lit" | "plain" | "danger";
+type KeyTone = "lit" | "plain";
 
 export function Key({ tone = "plain", className, children, ...rest }: ButtonHTMLAttributes<HTMLButtonElement> & { tone?: KeyTone }) {
   return (
@@ -45,22 +31,9 @@ export function Key({ tone = "plain", className, children, ...rest }: ButtonHTML
 function keyClass(tone: KeyTone) {
   if (tone === "lit")
     return "bg-lamp-amber text-housing-950 px-5 h-12 text-[13px] shadow-[inset_0_1px_0_rgb(255_255_255/0.45),inset_0_-2px_0_rgb(0_0_0/0.25),0_0_0_1px_rgb(0_0_0/0.65),0_6px_18px_-6px_rgb(255_181_71/0.55)] hover:bg-[#ffc266]";
-  if (tone === "danger")
-    return "bg-[#3a1d1a] text-lamp-red px-4 h-10 text-[12px] shadow-[inset_0_1px_0_rgb(255_255_255/0.07),inset_0_-2px_0_rgb(0_0_0/0.35),0_0_0_1px_rgb(0_0_0/0.7)] hover:bg-[#46221e]";
   return "bg-housing-700 text-engrave px-4 h-10 text-[12px] shadow-[inset_0_1px_0_rgb(255_255_255/0.08),inset_0_-2px_0_rgb(0_0_0/0.35),0_0_0_1px_rgb(0_0_0/0.7)] hover:bg-housing-600 disabled:opacity-45 disabled:cursor-not-allowed";
 }
 
-export function Plate({ children, className }: { children: ReactNode; className?: string }) {
-  return (
-    <div className={cn("panel hammertone relative", className)}>
-      <Screw className="absolute left-2 top-2" />
-      <Screw className="absolute right-2 top-2" />
-      <Screw className="absolute bottom-2 left-2" />
-      <Screw className="absolute bottom-2 right-2" />
-      {children}
-    </div>
-  );
-}
 
 export interface DetentOption<T extends string> {
   value: T;

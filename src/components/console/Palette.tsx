@@ -44,7 +44,7 @@ export function Palette({ open, onClose, run }: { open: boolean; onClose: () => 
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center bg-housing-950/70 px-4 pt-[12vh] backdrop-blur-[2px]" onMouseDown={(e) => e.target === e.currentTarget && onClose()}>
       <Command label="Go to a case, agent or view" className="paper w-full max-w-[560px] overflow-hidden rounded-[4px] shadow-[0_30px_60px_-20px_rgb(0_0_0/0.9)]" loop>
-        <div className="flex items-center gap-3 border-b-2 border-ink-black px-4">
+        <div className="flex items-center gap-3 border-b-2 border-ink-black px-4 focus-within:border-ink-red focus-within:shadow-[inset_0_-2px_0_var(--color-ink-red)]">
           <span className="printed text-[10px]">Go to</span>
           <Command.Input ref={inputRef} placeholder="SCN-04, PRC-01, ledger, revoke…" className="h-12 w-full bg-transparent font-mono text-[14px] text-ink-black outline-none placeholder:text-ink-graphite" />
         </div>

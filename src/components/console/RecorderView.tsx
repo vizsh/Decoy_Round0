@@ -126,9 +126,9 @@ export function RecorderView({ run }: { run: ComputedRun }) {
                     onClick={() => seekTo(i)}
                     className={cn("cursor-pointer border-t border-seam transition-colors", current ? "bg-housing-700" : "hover:bg-housing-800", future && "opacity-35")}
                   >
-                    <td className="py-2 pr-2 pl-5 font-mono text-[10.5px] text-engrave-3">
+                    <td className={cn("py-2 pr-2 pl-5 font-mono text-[10.5px]", current ? "text-engrave-2" : "text-engrave-3")}>
                       T{s.event.seq}
-                      {s.event.day ? <span className="ml-1 text-engrave-3">d{s.event.day}</span> : null}
+                      {s.event.day ? <span className="ml-1">d{s.event.day}</span> : null}
                     </td>
                     <td className="px-2 py-2 font-mono text-[10.5px] text-engrave-2">{s.event.agent}</td>
                     <td className="px-2 py-2 text-[13.5px] leading-snug text-engrave">{future ? <span className="text-engrave-3">pending</span> : s.event.summary}</td>
@@ -136,7 +136,7 @@ export function RecorderView({ run }: { run: ComputedRun }) {
                     <td className={cn("px-2 py-2 font-mono text-[10.5px]", bad ? "font-semibold text-lamp-red" : "text-engrave-2")}>{future ? "" : DECISION_LABEL[s.decision].toUpperCase()}</td>
                     <td className={cn("py-2 pr-5 pl-2 text-right font-mono text-[11.5px] tabular", s.risk >= 45 ? "text-lamp-red" : "text-engrave")}>
                       {future ? "" : s.risk}
-                      {!future && s.delta > 0 && <span className="ml-1.5 text-[9.5px] text-engrave-3">+{s.delta}</span>}
+                      {!future && s.delta > 0 && <span className={cn("ml-1.5 text-[9.5px]", current ? "text-engrave-2" : "text-engrave-3")}>+{s.delta}</span>}
                     </td>
                   </tr>
                 );

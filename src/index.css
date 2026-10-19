@@ -12,12 +12,11 @@
   --color-housing-800: #1e2723;
   --color-housing-700: #29332e;
   --color-housing-600: #37443e;
-  --color-housing-500: #4a5952;
   --color-seam: #0a0f0d;
 
   --color-engrave: #d2dbd5;
   --color-engrave-2: #9eaba3;
-  --color-engrave-3: #74827a;
+  --color-engrave-3: #85938b;
 
   --color-lamp-amber: #ffb547;
   --color-lamp-red: #ff5b4a;
@@ -39,7 +38,6 @@
   --color-ink-graphite: #4f5a54;
 
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
-  --ease-pen: cubic-bezier(0.45, 0, 0.2, 1);
 }
 
 @layer base {

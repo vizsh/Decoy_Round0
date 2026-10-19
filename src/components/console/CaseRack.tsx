@@ -49,7 +49,7 @@ export function CaseRack({ run }: { run: ComputedRun }) {
                     <span className="flex items-baseline justify-between gap-2">
                       <span className={cn("font-cond text-[14.5px] leading-tight font-semibold", active ? "text-engrave" : "text-engrave-2 group-hover:text-engrave")}>{s.title}</span>
                     </span>
-                    <span className="mt-0.5 block font-mono text-[9.5px] text-engrave-3">
+                    <span className={cn("mt-0.5 block font-mono text-[9.5px]", active ? "text-engrave-2" : "text-engrave-3")}>
                       {s.id} · {VECTOR[s.vector]}
                     </span>
                   </span>
