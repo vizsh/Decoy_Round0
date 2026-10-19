@@ -6,6 +6,8 @@ export function useSize<T extends HTMLElement>() {
   useLayoutEffect(() => {
     const el = ref.current;
     if (!el) return;
+    const initial = el.getBoundingClientRect();
+    setSize({ width: initial.width, height: initial.height });
     const ro = new ResizeObserver(([entry]) => {
       const { width, height } = entry.contentRect;
       setSize((s) => (Math.abs(s.width - width) < 0.5 && Math.abs(s.height - height) < 0.5 ? s : { width, height }));

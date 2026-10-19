@@ -55,17 +55,18 @@ export default function Landing() {
 function Nameplate() {
   return (
     <header className="sticky top-0 z-30 border-b border-seam bg-housing-950/92 backdrop-blur-[6px]">
-      <div className="flex h-14 items-center gap-6 px-4 sm:px-6 lg:px-10">
+      <div className="flex h-14 items-center gap-5 px-4 sm:px-6 lg:px-10 xl:gap-6">
         <Link to="/" className="flex items-center gap-3 no-underline" aria-label="MANDATE home">
           <span className="seam rounded-[3px] bg-housing-800 px-2.5 py-1 font-display text-[21px] leading-none font-extrabold tracking-[0.2em] text-engrave">MANDATE</span>
-          <span className="engraved hidden text-[10px] md:inline">Agent behaviour recorder · MR-1</span>
+          <span className="engraved hidden text-[10px] xl:inline">Agent behaviour recorder · MR-1</span>
+          <span className="engraved hidden text-[10px] md:inline xl:hidden">MR-1</span>
         </Link>
-        <span className="seam hidden items-baseline gap-2 rounded-[3px] bg-housing-950 px-2 py-1 xl:inline-flex" aria-label="Chart speed 6.2 millimetres per second">
+        <span className="seam hidden items-baseline gap-2 rounded-[3px] bg-housing-950 px-2 py-1 md:inline-flex" aria-label="Chart speed 6.2 millimetres per second">
           <span className="engraved text-[9px]">Chart</span>
           <span className="font-mono text-[11px] text-lamp-amber tabular">6.2</span>
           <span className="engraved text-[9px]">mm/s</span>
         </span>
-        <nav aria-label="Sections" className="ml-auto hidden items-center gap-6 lg:flex">
+        <nav aria-label="Sections" className="ml-auto hidden items-center gap-5 lg:flex xl:gap-6">
           {NAV.map((n) => (
             <a key={n.href} href={n.href} className="engraved text-[11px] no-underline transition-colors hover:text-engrave">
               {n.label}
@@ -155,7 +156,7 @@ function Hero() {
                 staticTime={frozenAt ?? (reduced ? duration : null)}
                 running={inView}
                 pxPerSec={compact ? 44 : 62}
-                playhead={compact ? 0.78 : 0.7}
+                playhead={compact ? 0.62 : 0.7}
                 labelWidth={compact ? 64 : 92}
                 compact={compact}
                 onReveal={setIdx}

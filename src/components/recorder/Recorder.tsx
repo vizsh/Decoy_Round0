@@ -60,6 +60,8 @@ function buildPath(series: Series, row: Row, k: number, endT: number, laneIdx: n
   return parts.join("");
 }
 
+const labelFits = (text: string, room: number) => text.length * 8.5 * 0.68 + 4 <= room;
+
 const truncate = (s: string, n: number) => (s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s);
 
 export interface RecorderProps {
@@ -111,6 +113,7 @@ export function Recorder({
   const runLen = cycle * k;
   const penX = mode === "scroll" ? paperW * playhead : 0;
   const pivotGap = Math.min(56, Math.max(24, (paperW - penX) * 0.4));
+  const labelRoom = paperW - penX - pivotGap - 14;
 
   const series = useMemo(() => {
     const out = {} as Record<LaneKey, Series>;
@@ -291,7 +294,7 @@ export function Recorder({
                       riskRow={riskRow}
                       uid={uid}
                       compact={compact}
-                      room={arr[i + 1] ? (arr[i + 1].event.at - s.event.at) * k : mode === "scroll" ? Math.max(84, Math.min(250, paperW - penX + 30)) : Math.max(90, paperW - s.event.at * k - 12)}
+                      room={arr[i + 1] ? (arr[i + 1].event.at - s.event.at) * k : mode === "scroll" ? Math.min(250, paperW - penX - 8) : Math.max(60, paperW - s.event.at * k - 12)}
                       crowded={i > 0 && (s.event.at - arr[i - 1].event.at) * k < 46 && arr[i - 1].newFactors.some((key) => (arr[i - 1].factors.find((f) => f.key === key)?.points ?? 0) > 0)}
                     />
                   ))}
@@ -329,16 +332,22 @@ export function Recorder({
           </text>
         </g>
 
-        {mode === "scroll" && paperW - penX - pivotGap > 64 && (
+        {mode === "scroll" && (
           <g aria-hidden="true">
-            {(["approval", "scope", "sandbox", "revoke"] as const).map((rung) => (
-              <text key={rung} x={labelWidth + penX + pivotGap + 14} y={yFor(riskRow, RUNG_FLOOR[rung] / 100) + 3} className="printed halo" fontSize={8.5} fill="var(--color-ink-red)">
-                {RUNG_FLOOR[rung]} {rung === "scope" ? "scope down" : rung}
+            {(["approval", "scope", "sandbox", "revoke"] as const).map((rung) => {
+              const full = `${RUNG_FLOOR[rung]} ${rung === "scope" ? "scope down" : rung}`;
+              const text = labelFits(full, labelRoom) ? full : labelFits(String(RUNG_FLOOR[rung]), labelRoom) ? String(RUNG_FLOOR[rung]) : null;
+              return text ? (
+                <text key={rung} x={labelWidth + paperW - 6} y={yFor(riskRow, RUNG_FLOOR[rung] / 100) + 3} textAnchor="end" className="printed halo" fontSize={8.5} fill="var(--color-ink-red)">
+                  {text}
+                </text>
+              ) : null;
+            })}
+            {labelFits("drift budget", labelRoom) && (
+              <text x={labelWidth + paperW - 6} y={yFor(layout.rows[6], 1) + 3} textAnchor="end" className="printed halo" fontSize={8.5} fill="var(--color-ink-graphite)">
+                drift budget
               </text>
-            ))}
-            <text x={labelWidth + penX + pivotGap + 14} y={yFor(layout.rows[6], 1) + 3} className="printed halo" fontSize={8.5} fill="var(--color-ink-graphite)">
-              drift budget
-            </text>
+            )}
           </g>
         )}
 
@@ -403,13 +412,13 @@ export function Recorder({
   );
 }
 
-function wrapWords(text: string, firstChars: number, chars: number, maxLines: number) {
+function wrapWords(text: string, firstChars: number, chars: number) {
   const words = text.split(" ");
   const lines: string[] = [];
   let line = "";
   for (const w of words) {
     const limit = lines.length === 0 ? firstChars : chars;
-    if (line && (line + " " + w).length > limit && lines.length < maxLines - 1) {
+    if (line && (line + " " + w).length > limit) {
       lines.push(line);
       line = w;
     } else line = line ? `${line} ${w}` : w;
@@ -457,8 +466,8 @@ function StepMarks({ s, i, k, layout, riskRow, uid, compact, room, crowded = fal
   for (const f of crowded ? [] : fresh.slice(0, compact ? 1 : 3)) {
     const size = compact ? Math.max(9.5, Math.min(12, 9 + f.points * 0.08)) : Math.max(10.5, Math.min(16.5, 9.5 + f.points * 0.24));
     const lh = size * 1.06;
-    const chars = Math.max(9, Math.floor((Math.max(room, 60) - 10) / (size * 0.47)));
-    const lines = wrapWords(f.label, chars - 5, chars, 3);
+    const chars = Math.max(7, Math.floor((room - 10) / (size * 0.5)));
+    const lines = wrapWords(f.label, chars - 4, chars);
     const h = lines.length * lh;
     if (cursor + h - lh > bottom && notes.length > 0) break;
     notes.push({ f, size, lines, y: cursor });
